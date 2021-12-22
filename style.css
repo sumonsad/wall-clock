@@ -9,7 +9,7 @@ body{
     height: 400px;
     background: linear-gradient(to right,red, rgb(10, 122, 10) );
     border-radius: 50%;
-    border: 2px solid black;
+    border: 5px solid red;
     position: fixed;
   }
   .clock .number{
@@ -78,12 +78,12 @@ body{
   .clock .minute{
   width:7px;
   height: 40%;
-  background-color: black;
+  background-color: green;
   }
   .clock .hour{
     width:10px;
     height: 35%;
-    background-color: black;
+    background-color: blue;
     }
   .clock::after{
     content: '';
